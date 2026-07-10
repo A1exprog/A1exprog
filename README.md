@@ -2,7 +2,7 @@
   <img src="assets/terminal.svg" width="900"/>
 </p>
 
-        [A1EXPROG](https://github.com/A1exprog)
+        [A1EXPROG]
 Machine Learning Engineer
 
 --------------------------------
@@ -40,4 +40,4 @@ PROJECTS
 
 --------------------------------
 STATUS:
-ONLINE █
+ONLINE 🌐 
