@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900"
+     height="320"
+     viewBox="0 0 900 320">
+
+
+<style>
+
+text {
+    font-family: Consolas, monospace;
+    font-size:26px;
+    fill:#39ff14;
+}
+
+.background {
+    fill:#0d1117;
+}
+
+</style>
+
+
+<defs>
+
+<filter id="glow">
+
+<feGaussianBlur
+stdDeviation="3"
+result="blur"/>
+
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+
+</filter>
+
+
+<pattern
+id="scan"
+width="4"
+height="4"
+patternUnits="userSpaceOnUse">
+
+<rect
+width="4"
+height="2"
+fill="#000"
+opacity="0.08"/>
+
+</pattern>
+
+
+</defs>
+
+
+<rect
+class="background"
+width="900"
+height="320"/>
+
+
+<rect
+width="900"
+height="320"
+fill="url(#scan)"/>
+
+
+<text x="40" y="50" filter="url(#glow)" opacity="0">
+
+&gt; booting...
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="0s"
+dur="0.2s"
+fill="freeze"/>
+
+</text>
+
+
+
+<text x="40" y="90" filter="url(#glow)" opacity="0">
+
+Loading neural network...
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="1s"
+dur="0.2s"
+fill="freeze"/>
+
+</text>
+
+
+
+<text x="40" y="140" filter="url(#glow)" opacity="0">
+
+Loading CUDA...
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="2s"
+dur="0.2s"
+fill="freeze"/>
+
+</text>
+
+
+
+<text x="40" y="190" filter="url(#glow)" opacity="0">
+
+Loading Computer Vision...
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="3s"
+dur="0.2s"
+fill="freeze"/>
+
+</text>
+
+
+
+<text x="40" y="240" filter="url(#glow)" opacity="0">
+
+Identity:
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="4s"
+dur="0.2s"
+fill="freeze"/>
+
+</text>
+
+
+<text x="40" y="285" filter="url(#glow)" opacity="0">
+
+A1EXPROG
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="5s"
+dur="0.2s"
+fill="freeze"/>
+
+</text>
+
+
+<rect
+x="190"
+y="260"
+width="14"
+height="28"
+fill="#39ff14">
+
+<animate
+attributeName="opacity"
+values="1;0;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</rect>
+
+
+</svg>
